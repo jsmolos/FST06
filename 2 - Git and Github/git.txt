@@ -1,0 +1,46 @@
+# Version Control  
+- keep track of changes
+- undoing mistakes
+- collaborating with other devs
+
+
+# GIT
+- VC system that records changes to our files at any given time
+- go back to a different version of the project
+- collaborating with other devs
+
+# REPOSITORIES
+- container for a proj you want to track with GIT
+- local or remote
+
+# TO MAKE AN ORDINARY FOLDER A REPOSITORIE
+- open git bash terminal
+- type: git init / hit enter
+- type: git config --global user.name "jsmolos" 
+- type: git config user.name - to check if the user name is configured successfully
+- type: git config --global user.email "molosj@yahoo.com" - hit enter
+- type: git config user.email - to check if email is configured successfully
+
+# Git 3 Stage Architecture
+- Working area - git init [initialize an empty repo for current folder]
+- Staging area - git add .
+- Commit Stage - git commit -m "This is the description of the changes"
+
+* type: git log - to check all the history  of changes made
+* type: git status - to check the status of working area
+* U - Untracked files
+* A - Added files
+* type: git add . - dot means adding all of the files and folder that you are currrently in 
+* type: git commit -m (message of commit) "Created notes for CLI" / hit enter
+* type: git status - will show status of files and folder
+
+# BRANCHES
+> MASTER BRANCH | MAIN
+- starting branch 
+- stable version of your code 
+- branch that is published 
+> ADDITIONAL BRANCHES 
+- copy state of code in master branch into a new branch 
+- isolated environment where we can try out features and changes 
+- if deleted or modified, these will not affect the master branch 
+
