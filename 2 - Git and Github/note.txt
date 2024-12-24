@@ -1,0 +1,33 @@
+# Version Control  
+- keep track of changes
+- undoing mistakes
+- collaborating with other devs
+
+
+# GIT
+- VC system that records changes to our files at any given time
+- go back to a different version of the project
+- collaborating with other devs
+
+# REPOSITORIES
+- container for a proj you want to track with GIT
+- local or remote
+
+# TO MAKE AN ORDINARY FOLDER A REPOSITORIE
+- open git bash terminal
+- type: git init / hit enter
+- type: git config --global user.name "jsmolos" 
+- type: git config user.name - to check if the user name is correct
+- type: git config user.email "molosj@yahoo.com" - hit enter
+- type: git config user.email
+
+# Git 3 Stage Architecture
+- Working area
+- Staging area
+- Commit Stage
+
+* type: git status - to check the status of working area
+* U - Untracked files
+* type: git add . - dot means adding all of the files and folder that you are currrently in 
+
+

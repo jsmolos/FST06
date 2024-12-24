@@ -1,0 +1,27 @@
+# Graphical User Interface : Icons/Buttons/Menus
+# Command Line Interface: Text-Based - Manage and Interact with Computer Files
+
+# Make Directory
+mkdir [Directory_name]
+
+# Remove Directory
+rmdir [Directory_name]
+
+# Print/Present Working Directory
+pwd
+
+# List Command
+ls 
+
+# Change Directory 
+cd [Directory_path]
+
+# Go back one Directory
+cd ..
+cd ../.. [to go inner dir]
+
+# Create files 
+touch [files_name.file_extension]
+
+# Remove Files
+rm [files_name.file_extension]
