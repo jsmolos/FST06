@@ -27,9 +27,11 @@
 - Commit Stage - git commit -m "This is the description of the changes"
 
 * type: git log - to check all the history  of changes made
+* type: git log --oneline - to return the 1st seven digit of log made 
 * type: git status - to check the status of working area
 * U - Untracked files
 * A - Added files
+* M - Modified
 * type: git add . - dot means adding all of the files and folder that you are currrently in 
 * type: git commit -m (message of commit) "Created notes for CLI" / hit enter
 * type: git status - will show status of files and folder
@@ -44,3 +46,18 @@
 - isolated environment where we can try out features and changes 
 - if deleted or modified, these will not affect the master branch 
 
+* type: git branch name | Ex. git branch feature - to create a branch via terminal cmd
+* type: git branch -a --> it will return all branches successfully created
+* type: git checkout branch_name, hit enter - to switched to specific branch 
+
+#SWITCH TO A DIFFERENT BRANCH
+- git checkout [branch_name]
+- git switch [branch_name]
+
+
+
+
+
+
+# MERGING CREATED BRANCH TO MAIN | MASTER BRANCH 
+- git merge
