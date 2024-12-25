@@ -55,9 +55,6 @@
 - git switch [branch_name]
 
 
-
-
-
-
 # MERGING CREATED BRANCH TO MAIN | MASTER BRANCH 
-- git merge
+- git merge [branch_name]
+
